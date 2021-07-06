@@ -174,7 +174,7 @@ public class WuzzufJobDAO {
     public static String listAllJobsToString(List<WuzzufJob> ls) {
         StringBuilder sb = new StringBuilder();
         int i = 0;
-        String html_table_header = "<table style=\"width:100%\">";
+        String html_table_header = "<table style=\"width:100%\" border=\"1\">";
         sb.append(html_table_header);
         while (i < ls.size() - 1) {
             WuzzufJob j = ls.get(i);
@@ -200,7 +200,7 @@ public class WuzzufJobDAO {
     public static String listAllJobsToString(Map<String, List<WuzzufJob>> map) {
         StringBuilder sb = new StringBuilder();
         int i = 0;
-        String html_table_header = "<table style=\"width:100%\"> "
+        String html_table_header = "<table style=\"width:100%\" border=\"1\"> "
                 + "<tr>"
                 + "    <th>Company</th>"
                 + "    <th>Jobs Count</th>"
@@ -241,7 +241,7 @@ public class WuzzufJobDAO {
 
     public static String listAllMapDataToString(Map<String, List<WuzzufJob>> map, List<Object> topJobTitles, String title1, String title2) {
         StringBuilder sb = new StringBuilder();
-        String html_table_header = "<table style=\"width:100%\"> "
+        String html_table_header = "<table style=\"width:100%\" border=\"1\"> "
                 + "<tr>"
                 + "    <th>" + title1 + "</th>"
                 + "    <th>" + title2 + "</th>"
@@ -264,7 +264,7 @@ public class WuzzufJobDAO {
 
     public static String listAllDataToString(Map<String, Long> map, List<Object> topJobTitles, String title1, String title2) {
         StringBuilder sb = new StringBuilder();
-        String html_table_header = "<table style=\"width:100%\"> "
+        String html_table_header = "<table style=\"width:100%\" border=\"1\"> "
                 + "<tr>"
                 + "    <th>" + title1 + "</th>"
                 + "    <th>" + title2 + "</th>"
