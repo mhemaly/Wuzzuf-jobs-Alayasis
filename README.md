@@ -1,9 +1,11 @@
 # Wuzzuf Jobs Dataset Analysis
+
  Java & UML for ML & Data Science Course Projects
 Some Java Appliication That i coded in Java Course in "Artificial intelligence Profissionals Diploma" introduced by  Egyptian Information Technology Institute [ITI](https://www.ITI.gov.eg)  & EPITA - School of Engineering and Computer Science
  [EPITA](https://www.epita.fr/)
-
+![image](https://user-images.githubusercontent.com/49839131/172823120-6225df45-81e3-49c3-9fec-eb349a8dba46.png)
 [Wuzzuf](https://wuzzuf.net/)
+
 
 
 Java Final Project On Wuzzuf Data set Analysis:
@@ -41,3 +43,6 @@ Team:
 Wuzzuf jobs in Egypt data set at Kaggle
 https://www.kaggle.com/omarhanyy/wuzzuf-jobs
 
+
+How to run :
+http://localhost:8282/
